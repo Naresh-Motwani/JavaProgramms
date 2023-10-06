@@ -1,5 +1,7 @@
 package Collection_Programming;
 
+//Functional Pragomming
+
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
@@ -10,9 +12,9 @@ public class MapWithGeneric {
 
 		Map<Integer, String> map = new HashMap<Integer, String>();
 		map.put(101, "Naresh");
-		map.put(102, "Rahul");
+		map.put(104, "Rahul");
 		map.put(103, "Mehta");
-		map.put(104, "JD");
+		map.put(102, "JD");
 
 		for (Map.Entry m : map.entrySet()) {
 			System.out.println(m.getKey() + " == " + m.getValue());
