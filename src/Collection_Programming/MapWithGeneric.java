@@ -1,6 +1,6 @@
 package Collection_Programming;
 
-//Functional Pragomming
+//Functional Programming 
 
 import java.util.Comparator;
 import java.util.HashMap;
